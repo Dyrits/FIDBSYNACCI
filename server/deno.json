@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "watch": "deno run --allow-all --watch ./src/main.ts & deno fmt --watch"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "hono/jsx"
+  },
+  "imports": {
+    "hono": "jsr:@hono/hono@^4.6.10",
+    "pg": "npm:pg@^8.13.1",
+    "redis": "npm:redis@^4.7.0"
+  }
+}

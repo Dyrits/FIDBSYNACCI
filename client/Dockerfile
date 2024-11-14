@@ -1,0 +1,11 @@
+FROM denoland/deno:latest
+
+WORKDIR /app
+
+COPY ./package.json ./
+
+RUN deno install
+
+COPY ./ ./
+
+CMD ["deno", "task", "watch"]
