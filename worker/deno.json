@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "watch": "deno run --allow-all --watch ./src/main.ts & deno fmt --watch"
+    "watch": "deno run --allow-all --watch ./src/main.ts"
   },
   "fmt": {
     "lineWidth": 120,

@@ -6,7 +6,7 @@ const redis = {
 };
 
 const client = createClient({
-  url: `redis://${redis.host}:${redis.port}`
+  url: `redis://${redis.host}:${redis.port}`,
 });
 
 client.on("error", (error: Error) => {

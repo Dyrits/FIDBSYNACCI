@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "watch": "deno task dev"
+    "format": "deno fmt --watch"
   },
   "fmt": {
     "lineWidth": 120,
@@ -8,6 +8,6 @@
     "semiColons": true,
     "singleQuote": false,
     "proseWrap": "preserve",
-    "include": ["./src"]
+    "include": ["./api/src", "./client/src", "./worker/src"]
   }
 }
