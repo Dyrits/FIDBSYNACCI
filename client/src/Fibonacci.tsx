@@ -15,7 +15,9 @@ const Fibonacci = () => {
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    input.current && await api.post("/fibonacci", { index: input.current.value });
+    if (input.current) {
+      await api.post("/fibonacci", { index: input.current.value });
+    }
     await setData();
   }
 
