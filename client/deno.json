@@ -8,6 +8,9 @@
     "semiColons": true,
     "singleQuote": false,
     "proseWrap": "preserve",
-    "include": ["./src"]
-  }
+    "include": [
+      "./src"
+    ]
+  },
+  "nodeModulesDir": "auto"
 }

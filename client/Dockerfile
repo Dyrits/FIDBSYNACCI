@@ -1,10 +1,10 @@
-FROM denoland/deno:latest
+FROM denoland/deno:2.9.8
 
 WORKDIR /app
 
-COPY ./package.json ./
+COPY ./package.json ./deno.json ./deno.lock ./
 
-RUN deno install
+RUN deno install --frozen-lockfile
 
 COPY ./ ./
 
