@@ -1,14 +1,14 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@hono/hono@^4.6.10": "4.6.10",
+    "jsr:@hono/hono@^4.6.10": "4.13.18",
     "npm:@types/node@*": "22.5.4",
     "npm:pg@^8.13.1": "8.13.1",
     "npm:redis@^4.7.0": "4.7.0_@redis+client@1.6.0"
   },
   "jsr": {
-    "@hono/hono@4.6.10": {
-      "integrity": "dae93ac8bb49881f99506aa8e01e5536d5d72cc3c2b556bde2816fdf25ca609c"
+    "@hono/hono@4.13.18": {
+      "integrity": "2e9a294f8ed5ca8f0dddf08927ad46111e756f3329f1483db550cd60757f7e21"
     }
   },
   "npm": {
